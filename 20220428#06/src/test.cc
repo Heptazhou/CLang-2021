@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022 Heptazhou <zhou@0h7z.com>
+ * Copyright (C) 2022-2023 Heptazhou <zhou@0h7z.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -19,11 +19,13 @@
 
 int main(int argc, const char *argv[])
 {
+	std::cout << sizeof(bool) << "	bool\n";
 	std::cout << sizeof(char) << "	char\n";
 	std::cout << sizeof(short) << "	short\n";
 	std::cout << sizeof(int) << "	int\n";
 	std::cout << sizeof(long) << "	long\n";
 	std::cout << sizeof(float) << "	float\n";
 	std::cout << sizeof(double) << "	double\n";
+	std::cout << sizeof(long long) << "	long long\n";
 	std::cout << sizeof(long double) << "	long double\n";
 }
