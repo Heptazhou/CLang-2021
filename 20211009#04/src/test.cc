@@ -10,9 +10,9 @@ int main(int argc, const char *argv[])
 		z,
 	];
 	struct test demo[] = {
-		{56,    23, "hello"},
-		{-1, 93463, "world"},
-		{ 7,     5,    "!!"},
+		{ 56,    23, "hello" },
+		{ -1, 93463, "world" },
+		{  7,     5,    "!!" },
 	};
 	int aaa[5][5],
 		a = 1,
